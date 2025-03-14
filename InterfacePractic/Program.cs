@@ -7,11 +7,23 @@ namespace InterfacePractic
         {
             MyArray marr = new MyArray(3);
             marr.Show();
-            marr.Show("Hello World");
-            Console.WriteLine(marr.Max());
-            Console.WriteLine(marr.Min());
-            Console.WriteLine(marr.Avg());
-            Console.WriteLine(marr.Search(5));
+            //Console.WriteLine(marr.Less(10));
+            //Console.WriteLine(marr.Greater(10));
+            //marr.ShowEven();
+            //marr.ShowOdd();
+            Console.WriteLine(marr.CountDistinct());
+            Console.WriteLine(marr.EqualToValue(5));
+
+            //TV tV = new TV();
+            //tV.TurnOn();
+            //tV.SetChannel(5);
+            //tV.Show();
+
+            //PassWordValidate passWordValidate = new PassWordValidate("123456");
+            //Console.WriteLine(passWordValidate.Validate("123456"));
+
+            //ValidateGmail validateGmail = new ValidateGmail();
+            //Console.WriteLine(validateGmail.Validate("asdassd@mail.com"));
         }
     }
 }
